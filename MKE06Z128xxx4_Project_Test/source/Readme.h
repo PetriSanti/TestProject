@@ -8,7 +8,8 @@
 #ifndef README_H_
 #define README_H_
 
-/* Describe instructions and main tasks to implement */~
+/* Describe instructions and main tasks to implement */
+
 /*
  * Main tasks:
  * 1-Primary functions
