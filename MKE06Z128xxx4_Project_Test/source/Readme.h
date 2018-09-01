@@ -13,7 +13,7 @@
 /*
  * Main tasks:
  * 1-Primary functions
- * - communication between MKE06z and bq76pl
+ * - communication between MKE06z and bq76pl536A
  * 		-pin: 1,2,3,4,38,39,40,41
  * - read can address
  * 		-pin: 11,12,14,15
