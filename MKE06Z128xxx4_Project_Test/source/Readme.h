@@ -2,7 +2,7 @@
  * Readme.h
  *
  *  Created on: 2 Sep 2018
- *      Author: pedro
+ *      Author: pedro,almor
  */
 
 #ifndef README_H_
