@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<configuration name="MKE06Z128xxx4" version="1.3" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_1.3 http://mcuxpresso.nxp.com/XSD/mex_configuration_1.3.xsd" uuid="01a8f920-89de-4320-b50f-f2aa1a5b96ea" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <common>
+      <processor>MKE06Z128xxx4</processor>
+      <package>MKE06Z128VLD4</package>
+      <mcu_data>ksdk2_0</mcu_data>
+      <cores selected="core0">
+         <core name="Cortex-M0P" id="core0" description="M0P core"/>
+      </cores>
+      <description>Configuration imported from MKE06Z128xxx4_Project_Test</description>
+   </common>
+   <preferences>
+      <validate_boot_init_only>true</validate_boot_init_only>
+   </preferences>
+   <tools>
+      <pins name="Pins" version="4.0" update_project_code="true">
+         <pins_profile>
+            <processor_version>3.0.0</processor_version>
+            <pin_labels>
+               <pin_label pin_num="24" pin_signal="PTB0/KBI0_P8/UART0_RX/PWT_IN1/ADC0_SE4" label="J1[2]"/>
+               <pin_label pin_num="23" pin_signal="PTB1/KBI0_P9/UART0_TX/ADC0_SE5" label="J1[4]/PTB1_IRTX" identifier=""/>
+               <pin_label pin_num="18" pin_signal="PTD5/KBI0_P29/PWT_IN0" label="J5[7]"/>
+               <pin_label pin_num="2" pin_signal="PTD0/KBI0_P24/FTM2_CH2/SPI1_SCK" label="PTD0" identifier="DRDY"/>
+               <pin_label pin_num="34" pin_signal="PTA1/KBI0_P1/FTM0_CH1/I2C0_4WSDAOUT/ACMP0_IN1/ADC0_SE1" label="PTH3_KEY1"/>
+               <pin_label pin_num="1" pin_signal="PTD1/KBI0_P25/FTM2_CH3/SPI1_MOSI" label="PTD1" identifier="CONV"/>
+               <pin_label pin_num="13" pin_signal="PTB4/KBI0_P12/FTM2_CH4/SPI0_MISO/ACMP1_IN2/NMI_b" label="D4[4]/PTG6_GREEN" identifier=""/>
+               <pin_label pin_num="25" pin_signal="PTA7/KBI0_P7/FTM2_FLT2/ACMP1_IN1/ADC0_SE3" label="J1[16]/J2[17]/PTA7_D7_ANB1"/>
+               <pin_label pin_num="35" pin_signal="PTA0/KBI0_P0/FTM0_CH0/I2C0_4WSCLOUT/ACMP0_IN0/ADC0_SE0" label="J2[9]/J3[2]/PTF7_A0_ANA0"/>
+               <pin_label pin_num="19" pin_signal="PTC1/KBI0_P17/FTM2_CH1/ADC0_SE9" label="J4[11]/PTF1_GPIO2"/>
+               <pin_label pin_num="12" pin_signal="PTB5/KBI0_P13/FTM2_CH5/SPI0_PCS/ACMP1_OUT" label="PTB5" identifier="ADDR_BIT1"/>
+               <pin_label pin_num="21" pin_signal="PTB3/KBI0_P11/SPI0_MOSI/FTM0_CH1/ADC0_SE7" label="PTB3" identifier="LED_STATUS"/>
+               <pin_label pin_num="22" pin_signal="PTB2/KBI0_P10/SPI0_SCK/FTM0_CH0/ADC0_SE6" label="J2[12]/J2[1]/PTB2_D13_T3"/>
+               <pin_label pin_num="33" pin_signal="PTA2/KBI0_P2/UART0_RX/I2C0_SDA" label="PTH4_KEY2"/>
+               <pin_label pin_num="32" pin_signal="PTA3/KBI0_P3/UART0_TX/I2C0_SCL" label="J2[20]/PTA3_ACCEL_SCL" identifier=""/>
+               <pin_label pin_num="6" pin_signal="VREFH/VDDA" label="VDD_KE06Z"/>
+               <pin_label pin_num="7" pin_signal="VREFL" label="GND"/>
+               <pin_label pin_num="36" pin_signal="PTC7/KBI0_P23/UART1_TX/CAN0_TX" label="PTC7" identifier="CANTX"/>
+               <pin_label pin_num="37" pin_signal="PTC6/KBI0_P22/UART1_RX/CAN0_RX" label="PTC6" identifier="CANRX"/>
+               <pin_label pin_num="16" pin_signal="PTD7/KBI0_P31/UART2_TX" label="J5[12]"/>
+               <pin_label pin_num="17" pin_signal="PTD6/KBI0_P30/UART2_RX" label="J5[8]"/>
+               <pin_label pin_num="41" pin_signal="PTC5/KBI0_P21/FTM1_CH1/RTCO" label="PTC5" identifier="SS"/>
+               <pin_label pin_num="20" pin_signal="PTC0/KBI0_P16/FTM2_CH0/ADC0_SE8" label="J3[4]/PTC0_A1"/>
+               <pin_label pin_num="26" pin_signal="PTA6/KBI0_P6/FTM2_FLT1/ACMP1_IN0/ADC0_SE2" label="J2[15]/PTA6_ANB0"/>
+               <pin_label pin_num="42" pin_signal="PTC4/KBI0_P20/RTCO/FTM1_CH0/ACMP0_IN2/SWD_CLK" label="J3[7]/PTC4_SWD_CLK_GPIO8"/>
+               <pin_label pin_num="3" pin_signal="PTE7/KBI1_P7/TCLK2/FTM1_CH1/CAN0_TX" label="PTE7" identifier="ALERT"/>
+               <pin_label pin_num="4" pin_signal="PTH2/KBI1_P26/BUSOUT/FTM1_CH0/CAN0_RX" label="PTH2" identifier="FAULT"/>
+               <pin_label pin_num="40" pin_signal="PTE0/KBI1_P0/SPI0_SCK/TCLK1/I2C1_SDA" label="PTE0" identifier="SCLK"/>
+               <pin_label pin_num="39" pin_signal="PTE1/KBI1_P1/SPI0_MOSI/I2C1_SCL" label="PTE1" identifier="MOSI"/>
+               <pin_label pin_num="38" pin_signal="PTE2/KBI1_P2/SPI0_MISO/PWT_IN0" label="PTE2" identifier="MISO"/>
+               <pin_label pin_num="31" pin_signal="PTD2/KBI0_P26/SPI1_MISO" label="J4[9]/PTD2_SPI1_MISO"/>
+               <pin_label pin_num="43" pin_signal="PTA5/KBI0_P5/IRQ/TCLK0/RESET_b" label="J4[6]/J7[10]/RST_TGTMCU/SW1"/>
+               <pin_label pin_num="15" pin_signal="PTC2/KBI0_P18/FTM2_CH2/ADC0_SE10" label="PTC2" identifier="ADDR_BIT3"/>
+               <pin_label pin_num="14" pin_signal="PTC3/KBI0_P19/FTM2_CH3/ADC0_SE11" label="PTC3" identifier="ADDR_BIT2"/>
+               <pin_label pin_num="11" pin_signal="PTI4/IRQ" label="PTI4" identifier="ADDR_BIT0"/>
+               <pin_label pin_num="5" pin_signal="VDD8" label="VDD_KE06Z"/>
+               <pin_label pin_num="28" pin_signal="VDD49" label="VDD_KE06Z"/>
+               <pin_label pin_num="8" pin_signal="VSSA/VSS" label="GND"/>
+               <pin_label pin_num="27" pin_signal="VSS48" label="GND"/>
+               <pin_label pin_num="30" pin_signal="PTD3/KBI0_P27/SPI1_PCS" label="PTD3_ACCEL_INT2" identifier=""/>
+               <pin_label pin_num="29" pin_signal="PTD4/KBI0_P28" label="PTD4_ACCEL_INT1" identifier=""/>
+               <pin_label pin_num="10" pin_signal="PTB6/KBI0_P14/I2C0_SDA/XTAL" label="PTB6" identifier="XTAL"/>
+               <pin_label pin_num="9" pin_signal="PTB7/KBI0_P15/I2C0_SCL/EXTAL" label="PTB7" identifier="EXTAL"/>
+               <pin_label pin_num="44" pin_signal="PTA4/KBI0_P4/ACMP0_OUT/SWD_DIO" label="J7[2]/SWD_DIO_TGTMCU"/>
+            </pin_labels>
+         </pins_profile>
+         <functions_list>
+            <function name="BOARD_InitPins">
+               <description>Configures pin routing and optionally pin electrical features.&amp;lt;br/&amp;gt;</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>core0</coreID>
+                  <enableClock>true</enableClock>
+               </options>
+               <dependencies>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins.BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <pins/>
+            </function>
+         </functions_list>
+      </pins>
+      <clocks name="Clocks" version="4.0" update_project_code="true">
+         <clocks_profile>
+            <processor_version>3.0.0</processor_version>
+         </clocks_profile>
+         <clock_configurations>
+            <clock_configuration name="BOARD_BootClockRUN">
+               <description></description>
+               <options/>
+               <dependencies>
+                  <dependency resourceType="PinSignal" resourceId="OSC.EXTAL" description="&apos;EXTAL&apos; (Pins tool id: OSC.EXTAL, Clocks tool id: OSC.EXTAL) needs to be routed" problem_level="1" source="Clocks: BOARD_BootClockRUN">
+                     <feature name="routed" evaluation="">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="PinSignal" resourceId="OSC.XTAL" description="&apos;XTAL&apos; (Pins tool id: OSC.XTAL, Clocks tool id: OSC.XTAL) needs to be routed" problem_level="1" source="Clocks: BOARD_BootClockRUN">
+                     <feature name="routed" evaluation="">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Clocks initialization requires the COMMON Driver in the project." problem_level="2" source="Clocks.BOARD_BootClockRUN">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <clock_sources>
+                  <clock_source id="OSC.OSC.outFreq" value="8 MHz" locked="false" enabled="true"/>
+               </clock_sources>
+               <clock_outputs>
+                  <clock_output id="Bus_clock.outFreq" value="20 MHz" locked="false" accuracy=""/>
+                  <clock_output id="Core_clock.outFreq" value="40 MHz" locked="false" accuracy=""/>
+                  <clock_output id="Flash_clock.outFreq" value="20 MHz" locked="false" accuracy=""/>
+                  <clock_output id="ICSFF_clock.outFreq" value="31.25 kHz" locked="false" accuracy=""/>
+                  <clock_output id="ICSIR_clock.outFreq" value="32.768 kHz" locked="false" accuracy=""/>
+                  <clock_output id="LPO_clock.outFreq" value="1 kHz" locked="false" accuracy=""/>
+                  <clock_output id="OSCER_clock.outFreq" value="8 MHz" locked="false" accuracy=""/>
+                  <clock_output id="Plat_clock.outFreq" value="40 MHz" locked="false" accuracy=""/>
+                  <clock_output id="System_clock.outFreq" value="40 MHz" locked="false" accuracy=""/>
+                  <clock_output id="Timer_clock.outFreq" value="20 MHz" locked="false" accuracy=""/>
+               </clock_outputs>
+               <clock_settings>
+                  <setting id="ICSMode" value="FEE" locked="false"/>
+                  <setting id="ICS.BDIV.scale" value="1" locked="true"/>
+                  <setting id="ICS.IREFS.sel" value="ICS.RDIV" locked="false"/>
+                  <setting id="ICS.RDIV.scale" value="256" locked="false"/>
+                  <setting id="ICS_C1_IRCLKEN_CFG" value="Enabled" locked="false"/>
+                  <setting id="OSC_CR_OSCEN_CFG" value="Enabled" locked="false"/>
+                  <setting id="OSC_CR_OSC_MODE_CFG" value="ModeOscLowPower" locked="false"/>
+                  <setting id="OSC_CR_RANGE_CFG" value="High" locked="false"/>
+                  <setting id="OSC_CR_RANGE_RDIV_CFG" value="High" locked="false"/>
+                  <setting id="SIM.DIV2.scale" value="2" locked="false"/>
+                  <setting id="SIM.DIV3.scale" value="2" locked="true"/>
+               </clock_settings>
+               <called_from_default_init>true</called_from_default_init>
+            </clock_configuration>
+         </clock_configurations>
+      </clocks>
+   </tools>
+</configuration>
